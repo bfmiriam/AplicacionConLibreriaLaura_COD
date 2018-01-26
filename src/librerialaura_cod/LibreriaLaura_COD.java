@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package librerialaura_cod;
 
+import com.otros.Libreria.Libreria;
+
 /**
- *
+ * Clase en la que importo la libreria y llamo a sus funciones
  * @author mbacelofernandez
  */
+
 public class LibreriaLaura_COD {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        /**
+         * Llamada a las funciones
+         */
+
+        System.out.println(Libreria.pedirDatoString("¿Como te llamas?"));
+        System.out.println(Libreria.pedirDatoFloat("¿Cual es tu nota media?"));
     }
-    
+
 }
